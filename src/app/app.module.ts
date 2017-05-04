@@ -4,6 +4,7 @@ import { HttpModule }    from '@angular/http';
 import { RoutingModule } from './routing.module';
 
 import { AppComponent }       from './app.component';
+import { HomeComponent }    from './components/home.component';
 import { PeopleComponent }    from './components/people.component';
 import { FilmsComponent }     from './components/films.component';
 import { PlanetsComponent }   from './components/planets.component';
@@ -28,6 +29,7 @@ import { VehiclesService }  from './services/VehiclesService';
   ],
   declarations: [ 
     AppComponent,
+    HomeComponent,
     PeopleComponent,
     FilmsComponent,
     PlanetsComponent,
