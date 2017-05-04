@@ -1,7 +1,6 @@
 *.log
 *.map
 *.component.js
+*.module.js
 *Service.js
-app.module.js
-routes.js
 main.js

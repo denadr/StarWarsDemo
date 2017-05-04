@@ -1,7 +1,7 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule }    from '@angular/http';
-import { AppRoutingModule } from './routes';
+import { RoutingModule } from './routing.module';
 
 import { AppComponent }       from './app.component';
 import { PeopleComponent }    from './components/people.component';
@@ -24,7 +24,7 @@ import { VehiclesService }  from './services/VehiclesService';
   imports: [ 
     BrowserModule,
     HttpModule,
-    AppRoutingModule
+    RoutingModule
   ],
   declarations: [ 
     AppComponent,
