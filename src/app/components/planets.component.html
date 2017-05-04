@@ -1,6 +1,8 @@
 <div class="container">
     <h2>Star Wars Planets</h2>
     <ul class="list-group">
-        <li class="list-group-item" *ngFor="let planet of planets">{{planet.name}}</li>
+        <li class="list-group-item" *ngFor="let planet of planets">
+            {{planet.name}}: {{planet.terrain}}, {{planet.population}} people
+        </li>
     </ul>
 </div>

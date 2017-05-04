@@ -1,6 +1,8 @@
 <div class="container">
     <h2>Star Wars Vehicles</h2>
     <ul class="list-group">
-        <li class="list-group-item" *ngFor="let vehicle of vehicles">{{vehicle.name}}</li>
+        <li class="list-group-item" *ngFor="let vehicle of vehicles">
+            {{vehicle.name}}: {{vehicle.cost_in_credits}} credits, {{vehicle.crew}} crew members, {{vehicle.passengers}} passengers
+        </li>
     </ul>
 </div>

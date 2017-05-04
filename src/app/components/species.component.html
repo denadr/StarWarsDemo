@@ -1,6 +1,8 @@
 <div class="container">
     <h2>Star Wars Species</h2>
     <ul class="list-group">
-        <li class="list-group-item" *ngFor="let specie of species">{{specie.name}}</li>
+        <li class="list-group-item" *ngFor="let specie of species">
+            {{specie.name}}: {{specie.classification}}, speaks {{specie.language}}
+        </li>
     </ul>
 </div>

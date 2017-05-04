@@ -1,6 +1,8 @@
 <div class="container">
     <h2>Star Wars Films</h2>
         <ul class="list-group">
-            <li class="list-group-item" *ngFor="let film of films">{{film.title}}</li>
+            <li class="list-group-item" *ngFor="let film of films">
+                {{film.title}} ({{film.release_date}}), Episode {{film.episode_id}}
+            </li>
         </ul>
 </div>
