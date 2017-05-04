@@ -8,6 +8,7 @@ import { PlanetsComponent } from './components/planets.component';
 import { StarshipsComponent } from './components/starships.component';
 import { VehiclesComponent } from './components/vehicles.component';
 
+
 const routes: Routes = 
 [
   { path: '', redirectTo: '/people', pathMatch: 'full' },
@@ -18,6 +19,7 @@ const routes: Routes =
   { path: 'starships',  component: StarshipsComponent },
   { path: 'vehicles',   component: VehiclesComponent },
 ];
+
 
 @NgModule
 ({
