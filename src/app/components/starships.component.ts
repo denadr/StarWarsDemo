@@ -5,7 +5,8 @@ import { StarshipsService } from '../services/StarshipsService';
 @Component
 ({
     selector : 'star-wars-starships',
-    templateUrl : './starships.component.html'
+    templateUrl : './starships.component.html',
+    providers : [ StarshipsService ]
 })
 export class StarshipsComponent implements OnInit
 {

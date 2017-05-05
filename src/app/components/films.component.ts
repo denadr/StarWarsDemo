@@ -5,7 +5,8 @@ import { FilmsService } from '../services/FilmsService';
 @Component
 ({
     selector : 'star-wars-films',
-    templateUrl : './films.component.html'
+    templateUrl : './films.component.html',
+    providers : [ FilmsService ]
 })
 export class FilmsComponent implements OnInit
 {

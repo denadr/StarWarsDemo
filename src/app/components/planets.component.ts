@@ -5,7 +5,8 @@ import { PlanetsService } from '../services/PlanetsService';
 @Component
 ({
     selector : 'star-wars-planets',
-    templateUrl : './planets.component.html'
+    templateUrl : './planets.component.html',
+    providers : [ PlanetsService ]
 })
 export class PlanetsComponent implements OnInit
 {

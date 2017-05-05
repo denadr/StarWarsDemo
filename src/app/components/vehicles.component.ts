@@ -5,7 +5,8 @@ import { VehiclesService } from '../services/VehiclesService';
 @Component
 ({
     selector : 'star-wars-vehicles',
-    templateUrl : './vehicles.component.html'
+    templateUrl : './vehicles.component.html',
+    providers : [ VehiclesService ]
 })
 export class VehiclesComponent implements OnInit
 {

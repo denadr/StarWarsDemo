@@ -5,7 +5,8 @@ import { SpeciesService } from '../services/SpeciesService';
 @Component
 ({
     selector : 'star-wars-species',
-    templateUrl : './species.component.html'
+    templateUrl : './species.component.html',
+    providers : [ SpeciesService ]
 })
 export class SpeciesComponent implements OnInit
 {

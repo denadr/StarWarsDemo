@@ -5,7 +5,8 @@ import { PeopleService } from '../services/PeopleService';
 @Component
 ({
     selector : 'star-wars-people',
-    templateUrl : './people.component.html'
+    templateUrl : './people.component.html',
+    providers : [ PeopleService ]
 })
 export class PeopleComponent implements OnInit
 {
